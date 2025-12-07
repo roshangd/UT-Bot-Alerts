@@ -1,6 +1,3 @@
-#PUSHOVER_USER_KEY = "uyx2dq5c3aunrf6ctxqxa3whjzvaf7"
-#PUSHOVER_API_TOKEN = "ann22xinwtuhgjf9ouww6xn1noxec7"
-
 import yfinance as yf
 import pandas as pd
 import numpy as np
@@ -10,8 +7,8 @@ import requests
 # ----------------------------------
 # CONFIG
 # ----------------------------------
-PUSHOVER_USER_KEY = "uyx2dq5c3aunrf6ctxqxa3whjzvaf7"
-PUSHOVER_API_TOKEN = "ann22xinwtuhgjf9ouww6xn1noxec7"
+PUSHOVER_USER_KEY = "YOUR_USER_KEY"
+PUSHOVER_API_TOKEN = "YOUR_APP_TOKEN"
 
 KEY_VALUE = 2
 ATR_PERIOD = 1
@@ -112,3 +109,4 @@ while True:
         print("Error:", e)
         print("Retrying in 10 seconds...")
         time.sleep(10)
+
